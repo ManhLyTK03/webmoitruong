@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Thiên Phúc</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="grid head">
+        <div class="row">
+            <div class="col c-2 m-6 t-3">
+                <a href="#"><div class="head__logo"></div></a>
+            </div>
+            <div class="col c-4 c-o-2 m-0 t-0">
+                <nav class="head__nav">
+                    <ul class="head__nav-list">
+                        <li class="head__nav-list__item underlined">
+                            <a href="#" class="head__nav-list__item--link">Trang chủ</a>
+                        </li>
+                        <li class="head__nav-list__item underlined">
+                            <a href="#" class="head__nav-list__item--link">Giới thiệu</a>
+                        </li>
+                        <li class="head__nav-list__item underlined">
+                            <a href="#" class="head__nav-list__item--link down__icon">Dịch vụ</a>
+                            <ul class="head__nav-menu">
+                                <li class="head__nav-menu__item">
+                                    <a href="#" class="head__nav-menu__item--link">Xử lí nước thải</a>
+                                </li>
+                                <li class="head__nav-menu__item">
+                                    <a href="#" class="head__nav-menu__item--link">Thu mua hóa chất</a>
+                                </li>
+                                <li class="head__nav-menu__item">
+                                    <a href="#" class="head__nav-menu__item--link">Tư vấn môi trường</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="head__nav-list__item underlined">
+                            <a href="#" class="head__nav-list__item--link down__icon">Liên hệ</a>
+                            <ul class="head__nav-menu">
+                                <li class="head__nav-menu__item">
+                                    <a href="#" class="head__nav-menu__item--link">0984593898</a>
+                                </li>
+                                <li class="head__nav-menu__item">
+                                    <a href="#" class="head__nav-menu__item--link">Facebook</a>
+                                </li>
+                                <li class="head__nav-menu__item">
+                                    <a href="#" class="head__nav-menu__item--link">Manhlytk03@gmail.com</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col c-1 c-o-3 m-0 t-2 t-o-7">
+                <a href="#" class="head__language" onclick="language()">
+                    <div class="head__language-icon" data-src="img/ngonngu.png"></div>
+                    <h4 class="head__language-text">VN</h4>
+                </a>
+            </div>
+            <div class="col c-0 t-0 m-2 m-o-4">
+                <div class="menu__mobile">
+                    <div class="menu__mobile--img" data-src="img/menu.svg" onclick="menu__mobile()"></div>
+                    <div class="menu__main">
+                        <a href="#" class="menu__main--item">Trang chủ</a>
+                        <a href="#" class="menu__main--item">Giới thiệu</a>
+                        <a href="#" class="menu__main--item" onclick="menu__mobile_list(0)">
+                            Dịch vụ
+                            <ul class="menu__main--item__ul">
+                                <li>Xử lí nuóc thải</li>
+                                <li>Thu mua chất thải</li>
+                                <li>Tư vấn môi trường</li>
+                            </ul>
+                        </a>
+                        <a href="#" class="menu__main--item" onclick="menu__mobile_list(1)">
+                            Liên hệ
+                            <ul class="menu__main--item__ul">
+                                <li>facebook</li>
+                                <li>gmail</li>
+                                <li>0984593898</li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="grid" id="slide">
+        <div class="slide">
+            <div class="slide__main" data-left="-1">
+                <div class="slide__main__img" data-src="img/nenslide1.jpg"></div>
+                <div class="slide__main__text">
+                    <h3 class="slide__main__text-h3">Đội ngũ nhân viên</h3>
+                    <p class="slide__main__text-p m-0">jd dkjf dkj đi dkfj dla dka laie ladj al ie oaiej aidj ldj adf df dà df dfsdfsfds dsfasdf sdfdfs dsf sdf dsf d dfs dfs dsf dsf dfs dsf dsf dsfdsfdfs dsfdfs d ds dsf đsf dfs mfdgn fdkf sdfgklfdg fkfdsm ômmd modsm do odmsom d f dsmow mm fmdlmf dlsk dfmm </p>
+                </div>
+            </div>
+            <div class="slide__main" data-left="0">
+                <div class="slide__main__img" data-src="img/nenslide2.jpg"></div>
+                <div class="slide__main__text">
+                    <h3 class="slide__main__text-h3">Đội ngũ nhân viên</h3>
+                    <p class="slide__main__text-p m-0">jd dkjf dkj đi dkfj dla dka laie ladj al ie oaiej aidj ldj adf df dà df dfsdfsfds dsfasdf sdfdfs dsf sdf dsf d dfs dfs dsf dsf dfs dsf dsf dsfdsfdfs dsfdfs d ds dsf đsf dfs mfdgn fdkf sdfgklfdg fkfdsm ômmd modsm do odmsom d f dsmow mm fmdlmf dlsk dfmm </p>
+                </div>
+            </div>
+            <div class="slide__main" data-left="1">
+                <div class="slide__main__img" data-src="img/nenslide1.jpg"></div>
+                <div class="slide__main__text">
+                    <h3 class="slide__main__text-h3">Đội ngũ nhân viên</h3>
+                    <p class="slide__main__text-p m-0">jd dkjf dkj đi dkfj dla dka laie ladj al ie oaiej aidj ldj adf df dà df dfsdfsfds dsfasdf sdfdfs dsf sdf dsf d dfs dfs dsf dsf dfs dsf dsf dsfdsfdfs dsfdfs d ds dsf đsf dfs mfdgn fdkf sdfgklfdg fkfdsm ômmd modsm do odmsom d f dsmow mm fmdlmf dlsk dfmm </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid main" id="service">
+        <div class="wide">
+            <div class="title">
+                <a href="#" class="title-main">Dịch vụ</a>
+                <a href="#" class="title-mode">Xem thêm</a>
+            </div>
+            <div class="title__note">
+                <p class="title__note--p">Là nhà cung cấp dịch vụ môi trường đáng tin cậy,Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc hỗ trợ khách hàng mọi quy mô công trình, mọi yêu cầu của khách hàng với tiến độ nhanh nhất, công nghệ hiện đại và giá thành rẻ nhất thị trườngLà nhà cung cấp dịch vụ môi trường đáng tin cậy,Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc hỗ trợ khách hàng mọi quy mô công trình, mọi yêu cầu của khách hàng với tiến độ nhanh nhất, công nghệ hiện đại và giá thành rẻ nhất thị trường</p>
+            </div>
+            <div class="row service__main">
+                <div class="col c-4 t-4 m-12">
+                    <div class="service__main-item service__main-item1 an_lazy" data-src="img/xlnt.jpg">
+                        <div class="service__main-item__text">
+                            <div class="service__main-item__text--icon" data-src="img/iconxlnt.png"></div>
+                            <h4 class="service__main-item__text--title">Xử lí nước thải</h4>
+                            <p class="service__main-item__text--p">thông tin chi tiết về dịch vụ và giới thiệu dịch vụ djfd kdfjie eifj ẹo eifj eijfs lsejl lse ịe eifj ôji ị jois sfnsfj kc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4 t-4 m-12">
+                    <div class="service__main-item service__main-item2 an_lazy" data-src="img/tmhc.jpg">
+                        <div class="service__main-item__text">
+                            <div class="service__main-item__text--icon" data-src="img/icontmhc.png"></div>
+                            <h4 class="service__main-item__text--title">Thu mua hóa chất</h4>
+                            <p class="service__main-item__text--p">thông tin chi tiết về dịch vụ và giới thiệu dịch vụ djfd kdfjie eifj ẹo eifj eijfs lsejl lse ịe eifj ôji ị jois sfnsfj kc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col c-4 t-4 m-12">
+                    <div class="service__main-item service__main-item3 an_lazy" data-src="img/tvmt.jpg">
+                        <div class="service__main-item__text">
+                            <div class="service__main-item__text--icon" data-src="img/icontvmt.png"></div>
+                            <h4 class="service__main-item__text--title">Tư vấn môi trường</h4>
+                            <p class="service__main-item__text--p">thông tin chi tiết về dịch vụ và giới thiệu dịch vụ djfd kdfjie eifj ẹo eifj eijfs lsejl lse ịe eifj ôji ị jois sfnsfj kc</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid main" id="project">
+        <div class="wide">
+            <div class="title">
+                <a href="#" class="title-main">Dịch vụ</a>
+                <a href="#" class="title-mode">Xem thêm</a>
+            </div>
+            <div class="title__note">
+                <p class="title__note--p">Là nhà cung cấp dịch vụ môi trường đáng tin cậy,Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc hỗ trợ khách hàng mọi quy mô công trình, mọi yêu cầu của khách hàng với tiến độ nhanh nhất, công nghệ hiện đại và giá thành rẻ nhất thị trườngLà nhà cung cấp dịch vụ môi trường đáng tin cậy,Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc hỗ trợ khách hàng mọi quy mô công trình, mọi yêu cầu của khách hàng với tiến độ nhanh nhất, công nghệ hiện đại và giá thành rẻ nhất thị trường</p>
+            </div>
+            <div class="project__data row">
+                <div class="col c-3 m-6">
+                    <div class="project__data-item" data-src="img/lucgiac.png">
+                        <div class="project__data-item--icon" data-src="img/iconduan.png"></div>
+                        <div class="project__data-item--number" after="+">9999</div>
+                        <div class="project__data-item--not">Dự án</div>
+                    </div>
+                </div>
+                <div class="col c-3 m-6">
+                    <div class="project__data-item" data-src="img/lucgiac.png">
+                        <div class="project__data-item--icon" data-src="img/iconnhanvien.png"></div>
+                        <div class="project__data-item--number" after="+">999</div>
+                        <div class="project__data-item--not">Nhân viên</div>
+                    </div>
+                </div>
+                <div class="col c-3 m-6">
+                    <div class="project__data-item" data-src="img/lucgiac.png">
+                        <div class="project__data-item--icon" data-src="img/icondoitac.png"></div>
+                        <div class="project__data-item--number" after="+">99</div>
+                        <div class="project__data-item--not">Đối tác</div>
+                    </div>
+                </div>
+                <div class="col c-3 m-6">
+                    <div class="project__data-item" data-src="img/lucgiac.png">
+                        <div class="project__data-item--icon" data-src="img/icondanhgia.png"></div>
+                        <div class="project__data-item--number" after="%">99</div>
+                        <div class="project__data-item--not">Hài lòng</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project__main an_lazy" onclick="project_next()">
+                <div class="project__main-img" data-src="img/duan1.jpg"></div>
+                <div class="project__main-text">
+                    <h4 class="project__main-text__title">Dự án xử lí nước thải sinh hoạt</h4>
+                    <p class="project__main-text__p">các thông tin chi tiết cụ thể về dự án như: ngày khởi công và kết thúc dự án, quy mô cảu dự án, yêu cầu của khách hàng so với những gì công ty đã thực hiện được, đánh giá của khách hàng về dự áncác thông tin chi tiết cụ thể về dự án như: ngày khởi công và kết thúc dự án, quy mô cảu dự án, yêu cầu của khách hàng so với những gì công ty đã thực hiện được, đánh giá của khách hàng về dự án</p>
+                    <h4 class="project__main-text__end">tên đối tác(khách hàng)</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid main" id="history">
+        <div class="wide">
+            <div class="title">
+                <a href="#" class="title-main">Lịch sử công ty</a>
+                <a href="#" class="title-mode">Xem thêm</a>
+            </div>
+            <div class="title__note">
+                <p class="title__note--p">Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc với hơn 8 năm kinh nghiệm trong lĩnh vực xử lí nước thải, 15 năm trong lĩnh vực môi trường chúng tôi tự hào đã hoàn thành nhiều dự án, xây dựng nhiều hạng mục,hợp tác với nhiều công ty lớn trong nước và quốc tế với sựu tận tâm chúng tôi đem lại cho đối tác và khách hàng sự hà lời về dịch vụ với kinh nghiệm dày dặn</p>
+            </div>
+            <div class="row history__main an_lazy">
+                <div class="col c-4 t-5 m-8 m-o-2">
+                    <div class="history__main--img" data-src="img/thanhlap.jpg"></div>
+                </div>
+                <div class="col c-8 t-7 m-8 m-o-2">
+                    <div class="history__main--content">
+                        <h4 class="history__main--content-title">2017-Thành lập Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc</h4>
+                        <p class="history__main--content-p m-0">năm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd jnăm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd jnăm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd j</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row history__main an_lazy">
+                <div class="col c-8 t-7 m-8 m-o-2 m_order2">
+                    <div class="history__main--content history__main--content-left">
+                        <h4 class="history__main--content-title">2017-Thành lập Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc</h4>
+                        <p class="history__main--content-p m-0">năm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd jnăm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd jnăm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd j</p>
+                    </div>
+                </div>
+                <div class="col c-4 t-5 m-8 m-o-2 m_order1">
+                    <div class="history__main--img" data-src="img/duan1.jpg"></div>
+                </div>
+            </div>
+            <div class="row history__main an_lazy">
+                <div class="col c-4 t-5 m-8 m-o-2">
+                    <div class="history__main--img" data-src="img/duan4.jpg"></div>
+                </div>
+                <div class="col c-8 t-7 m-8 m-o-2">
+                    <div class="history__main--content">
+                        <h4 class="history__main--content-title">2017-Thành lập Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc</h4>
+                        <p class="history__main--content-p m-0">năm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd jnăm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd jnăm 2017 đánh giấu sự có mặt của chúng tôi trên thị trường djkf eihf ehosf oẹoej djfh dkjfh jehu uh jek knj kjn jh jdh kdhf dkhfkd jdhfu khdk djhf kjdn kdn kdnfk jhflk djnfk kdjbn kdb dknf dkfbj kdnfk d,jf kdnf kdjfn kdjfn dmnfknj dmf nf jd mkd ,dm djnf ,dnj ,fn, dmnfl fndjd jd j</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid main" id="contact">
+        <div class="wide">
+            <div class="title">
+                <a href="#" class="title-main">Liên hệ và báo giá</a>
+                <a href="#" class="title-mode">Xem thêm</a>
+            </div>
+            <div class="title__note">
+                <p class="title__note--p">Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc với hơn 8 năm kinh nghiệm trong lĩnh vực xử lí nước thải, 15 năm trong lĩnh vực môi trường chúng tôi tự hào đã hoàn thành nhiều dự án, xây dựng nhiều hạng mục,hợp tác với nhiều công ty lớn trong nước và quốc tế với sựu tận tâm chúng tôi đem lại cho đối tác và khách hàng sự hà lời về dịch vụ với kinh nghiệm dày dặn</p>
+            </div>
+            <div class="row contact__main">
+                <div class="col c-5 c-o-1 t-8 t-o-2 m-12 contact__main-left_lazy an_lazy">
+                    <div class="contact__main-left">
+                        <div class="contact__main-left--item" data-src="img/congnhan1.jpg"></div>
+                        <div class="contact__main-left--item" data-src="img/congnhan2.jpg"></div>
+                        <div class="contact__main-left--item" data-src="img/congnhan3.jpg"></div>
+                        <div class="contact__main-left--item" data-src="img/congnhan4.jpg"></div>
+                        <div class="contact__main-left--mid"></div>
+                    </div>
+                </div>
+                <div class="col c-5 t-10 t-o-1 m-12 contact__main-right--before">
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQhKNYgr_npap5Tk_Keb0Z0tZnMq2Ma-r2PPrkhzr8TIS5dA/formResponse" method="post" class="contact__main-right an_lazy" id="form" novalidate>
+                        <h3 class="contact__main-right--title">Báo giá</h3>
+                        <div class="contact__main-right--ask">
+                            <h4 class="contact__main-right--ask__h4">Nhập tên của bạn</h4>
+                            <label for="name">
+                                <input type=" text" name="entry.1574133413" required pattern="\S+.*" placeholder="Your name..." id="name" class="contact__main-right--ask__input">
+                            </label>
+                            <span class="contact__main-right--ask__error">vui lòng nhập phần này</span>
+                        </div>
+                        <div class="contact__main-right--ask">
+                            <h4 class="contact__main-right--ask__h4">Nhập tên của bạn</h4>
+                            <label for="name">
+                                <input type=" text" name="entry.1574133413" required pattern="\S+.*" placeholder="Your name..." id="name" class="contact__main-right--ask__input">
+                            </label>
+                            <span class="contact__main-right--ask__error">vui lòng nhập phần này</span>
+                        </div>
+                        <div class="contact__main-right--ask">
+                            <h4 class="contact__main-right--ask__h4">Nhập tên của bạn</h4>
+                            <label for="location" id="dia_chi">
+                                <select name="entry.119624009" id="location" class="contact__main-right--ask__input">
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="TP Hồ CHí Minh">TP Hồ Chí Minh</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="contact__main-right--ask">
+                            <div class="submit">
+                                <label for="submit">
+                                    <input type="submit" id="submit" class="contact__main-right--ask__submit">
+                                </label>
+                            </div>
+                            <span class="contact__main-right--ask__note">Vui lòng kiểm tra lại</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid main" id="feedback">
+        <div class="wide">
+            <div class="title">
+                <a href="#" class="title-main">Đối tác và khách hàng</a>
+                <a href="#" class="title-mode">Xem thêm</a>
+            </div>
+            <div class="title__note">
+                <p class="title__note--p">Là nhà cung cấp dịch vụ môi trường đáng tin cậy,Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc hỗ trợ khách hàng mọi quy mô công trình, mọi yêu cầu của khách hàng với tiến độ nhanh nhất, công nghệ hiện đại và giá thành rẻ nhất thị trườngLà nhà cung cấp dịch vụ môi trường đáng tin cậy,Công ty TNHH dịch vụ kỹ thuật và thương mại Thiên Phúc hỗ trợ khách hàng mọi quy mô công trình, mọi yêu cầu của khách hàng với tiến độ nhanh nhất, công nghệ hiện đại và giá thành rẻ nhất thị trường</p>
+            </div>
+            <div class="feedback an_lazy">
+                <div class="row">
+                    <div class="feedback__slide">
+                        <div class="feedback__main" data-left="-1">
+                            <div class="feedback__main-img"><div class="feedback__main-img--after" data-src="img/PNV.jpg"></div>
+                            </div>
+                            <div class="feedback__main-centent">
+                                <p class="feedback__main-content--p">Chất lượng hoàn thiện dự án tốt,thời gian nhanh chóng thiết bị iện đại đội ngũ chuyên nghiệp. Tôi vô cùng hài lòng</p>
+                                <h4 class="feedback__main-content--name">Phạm Nhật Vượng</h4>
+                                <span class="feedback__main-content--note">chủ tịch tập đoàn VinGroup</span>
+                            </div>
+                        </div>
+                        <div class="feedback__main" data-left="0">
+                            <div class="feedback__main-img"><div class="feedback__main-img--after" data-src="img/PNV.jpg"></div>
+                            </div>
+                            <div class="feedback__main-centent">
+                                <p class="feedback__main-content--p">Chất lượng hoàn thiện dự án tốt,thời gian nhanh chóng thiết bị iện đại đội ngũ chuyên nghiệp. Tôi vô cùng hài lòng</p>
+                                <h4 class="feedback__main-content--name">Phạm Nhật Vượng</h4>
+                                <span class="feedback__main-content--note">chủ tịch tập đoàn VinGroup</span>
+                            </div>
+                        </div>
+                        <div class="feedback__main" data-left="1">
+                            <div class="feedback__main-img"><div class="feedback__main-img--after" data-src="img/PNV.jpg"></div>
+                            </div>
+                            <div class="feedback__main-centent">
+                                <p class="feedback__main-content--p">Chất lượng hoàn thiện dự án tốt,thời gian nhanh chóng thiết bị iện đại đội ngũ chuyên nghiệp. Tôi vô cùng hài lòng</p>
+                                <h4 class="feedback__main-content--name">Phạm Nhật Vượng</h4>
+                                <span class="feedback__main-content--note">chủ tịch tập đoàn VinGroup</span>
+                            </div>
+                        </div>
+                        <div class="feedback__main" data-left="2">
+                            <div class="feedback__main-img"><div class="feedback__main-img--after" data-src="img/PNV.jpg"></div>
+                            </div>
+                            <div class="feedback__main-centent">
+                                <p class="feedback__main-content--p">Chất lượng hoàn thiện dự án tốt,thời gian nhanh chóng thiết bị iện đại đội ngũ chuyên nghiệp. Tôi vô cùng hài lòng</p>
+                                <h4 class="feedback__main-content--name">Phạm Nhật Vượng</h4>
+                                <span class="feedback__main-content--note">chủ tịch tập đoàn VinGroup</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="feedback__company">
+                        <div class="feedback__company-img" data-src="img/canon.png" data-left="-1"></div>
+                        <div class="feedback__company-img" data-src="img/vina.png" data-left="0"></div>
+                        <div class="feedback__company-img" data-src="img/vin.png" data-left="1"></div>
+                        <div class="feedback__company-img" data-src="img/mit.png" data-left="2"></div>
+                        <div class="feedback__company-img" data-src="img/ítcom.png" data-left="3"></div>
+                        <div class="feedback__company-img" data-src="img/tex.png" data-left="4"></div>
+                        <div class="feedback__company-img" data-src="img/vina.png" data-left="5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid main" id="map">
+        <div class="wide">
+            <div class="title">
+                <a href="#" class="title-main">Địa chỉ</a>
+            </div>
+            <div class="map">
+                <div class="map__img"></div>
+                <div class="map__main">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7408202188785!2d105.60583627436924!3d20.962920990038402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313451bdff6faac7%3A0x4d1af2056b5232c3!2zVOG6oXAgSMOzYSBUw6BpIENoacOqbg!5e0!3m2!1svi!2s!4v1681802078366!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="grid" id="end">
+        <div class="end" data-src="img/nen3.jpg">
+            <div class="end__main">
+                <div class="end__main-item">
+                    <h3 class="end__main-item--title">Liên hệ</h3>
+                    <a href="#" class="end__main-item--text end__main-item--text-flex">
+                        <div class="end__main-item--text__icon" data-src="img/phone.svg"></div>
+                        <h4>0984593898</h4>
+                    </a>
+                    <a href="#" class="end__main-item--text end__main-item--text-flex">
+                        <div class="end__main-item--text__icon" data-src="img/facebook.svg"></div>
+                        <h4>Mạnh Lý</h4>
+                    </a>
+                    <a href="#" class="end__main-item--text end__main-item--text-flex">
+                        <div class="end__main-item--text__icon" data-src="img/mail.svg"></div>
+                        <h4>Manhlytk03@gmail.com</h4>
+                    </a>
+                    <a href="#" class="end__main-item--text end__main-item--text-flex">
+                        <div class="end__main-item--text__icon" data-src="img/map-pin.svg"></div>
+                        <h4>Thái Khê-Cấn Hữu-Quốc Oai- Hà Nội</h4>
+                    </a>
+                </div>
+                <div class="end__main-item end__main-item-center">
+                    <h3 class="end__main-item--title">Dịch Vụ</h3>
+                    <h4 class="end__main-item--text">Xử lí nước thải</h4>
+                    <h4 class="end__main-item--text">Thu mua hóa chất</h4>
+                    <h4 class="end__main-item--text">Tư vấn môi trường</h4>
+                </div>
+                <div class="end__main-item end__main-item-right">
+                    <h3 class="end__main-item--title">Dịch Vụ</h3>
+                    <h4 class="end__main-item--text">Xử lí nước thải</h4>
+                    <h4 class="end__main-item--text">Thu mua hóa chất</h4>
+                    <h4 class="end__main-item--text">Tư vấn môi trường</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="javascript/base.js"></script>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
